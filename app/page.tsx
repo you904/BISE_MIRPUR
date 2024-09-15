@@ -18,7 +18,6 @@ export default async function Home () {
     */}
  <Header/>
  <CarouselPlugin/>
-
  <div className="flex justify-center mt-24 items-center space-x-3">
   {/* First image */}
   <img src="https://bisempk.edu.pk/img/cm.png" alt="First Image" className="w-60 h-auto" />
