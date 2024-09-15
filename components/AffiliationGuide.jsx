@@ -19,8 +19,8 @@ const AffiliationGuide = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 bg-white">
-  <h1 className="text-3xl font-bold text-center mb-8">Welcome to Affiliation Guide</h1>
+    <div className="container mx-auto px-4 py-8 bg-white text-black">
+  <h1 className="text-3xl font-bold text-center mb-8 ">Welcome to Affiliation Guide</h1>
   
   {affiliations.map((item, index) => (
     <div key={index} className="border-b border-blue-500 py-4 flex justify-between items-center bg-white">

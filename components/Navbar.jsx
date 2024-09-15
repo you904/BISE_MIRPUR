@@ -22,7 +22,7 @@ function Navbar() {
             className="h-20"
             alt="BISE Logo"
           />
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-xl font-semibold whitespace-nowrap text-black">
             BISE, Mirpurkhas
           </span>
         </a>
