@@ -11,7 +11,7 @@ import CarouselPlugin from "../components/CarouselPlugin";
 export default async function Home () {
   // await dbConnect()
   return (
-  <div className="bg-white ">
+  <div className="bg-white w-full">
     {/* <h1>
       web app
     </h1>
@@ -19,12 +19,12 @@ export default async function Home () {
  <Header/>
  <CarouselPlugin/>
 
- <div className="flex justify-center mt-24 items-center space-x-4">
+ <div className="flex justify-center mt-24 items-center space-x-3">
   {/* First image */}
-  <img src="https://bisempk.edu.pk/img/cm.png" alt="First Image" className="w-72 h-auto" />
+  <img src="https://bisempk.edu.pk/img/cm.png" alt="First Image" className="w-60 h-auto" />
   
   {/* Second image */}
-  <img src="https://bisempk.edu.pk/img/img_background/cm_msg.png" alt="Second Image" className="w-[37%] h-auto" />
+  <img src="https://bisempk.edu.pk/img/img_background/cm_msg.png" alt="Second Image" className="w-[33%] h-auto" />
 </div>
  <div className="flex justify-center mt-24 items-center space-x-4">
   {/* First image */}
@@ -38,7 +38,7 @@ export default async function Home () {
   <img src="https://bisempk.edu.pk/img/img_background/chairman_msg.jpg" alt="Second Image" className="w-[40%] h-auto" />
 </div>
 
-<div className=" flex gap-44 flex-col">
+<div className=" flex gap-40 flex-col">
 
 <Updates/>
 <MayaCard/>
