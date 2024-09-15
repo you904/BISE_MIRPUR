@@ -3,9 +3,9 @@ import Header from "../../components/Header"
 import Footer from "../../components/Footer" 
 function page() {
   return (
-<>
+< >
 <Header/>
-<div className='my-5 bg-white'>
+<div className=' bg-white'>
     <div className='text-center'>
         <h1 className='text-4xl text-gray-800 font-sans font-bold'>Welcome To Student Portal</h1>
         <p className='text-lg text-gray-800 font-sans font-semibold mt-5'>Please select the exam type & enter the roll number to download your duplicate slip</p>
