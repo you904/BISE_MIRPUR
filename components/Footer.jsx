@@ -50,39 +50,41 @@ function Footer() {
               </li>
             </ul>
           </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div>
+    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Important Links</h2>
+    <ul className="text-gray-500 dark:text-gray-400 font-medium">
+      <li className="mb-4">
+        <a href="#" className="hover:underline">Online Slips</a>
+      </li>
+      <li className="mb-4">
+        <a href="#" className="hover:underline">Online Results</a>
+      </li>
+      <li className="mb-4">
+        <a href="#" className="hover:underline">Duplicate Transcript</a>
+      </li>
+    </ul>
+  </div>
 
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Important Links</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Online Slips</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Online Results</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Duplicate Transcript</a>
-              </li>
-            </ul>
-          </div>
+  <div>
+    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+    <ul className="text-gray-500 dark:text-gray-400 font-medium">
+      <li className="mb-4">
+        <a href="#" className="hover:underline">Chairman@bisempk.edu.pk</a>
+      </li>
+      <li className="mb-4">
+        <a href="#" className="hover:underline">Info@bisempk.edu.pk</a>
+      </li>
+      <li className="mb-4">
+        <a href="#" className="hover:underline">Secretary@bisempk.edu.pk</a>
+      </li>
+      <li className="mb-4">
+        <a href="#" className="hover:underline">+92 333 2999977</a>
+      </li>
+    </ul>
+  </div>
+</div>
 
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Chairman@bisempk.edu.pk</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Info@bisempk.edu.pk</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">Secretary@bisempk.edu.pk</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">+92 333 2999977</a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="py-6 bg-gray-100 dark:bg-gray-700 flex justify-between items-center">
