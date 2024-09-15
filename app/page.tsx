@@ -11,7 +11,7 @@ import CarouselPlugin from "../components/CarouselPlugin";
 export default async function Home () {
   // await dbConnect()
   return (
-  <div className="bg-white h-screen">
+  <div className="bg-white ">
     {/* <h1>
       web app
     </h1>
@@ -38,7 +38,7 @@ export default async function Home () {
   <img src="https://bisempk.edu.pk/img/img_background/chairman_msg.jpg" alt="Second Image" className="w-[40%] h-auto" />
 </div>
 
-<div className="flex gap-44 flex-col">
+<div className=" flex gap-44 flex-col">
 
 <Updates/>
 <MayaCard/>
