@@ -11,7 +11,7 @@ import CarouselPlugin from "../components/CarouselPlugin";
 export default async function Home () {
   // await dbConnect()
   return (
-  <div className=" h-screen">
+  <div className="bg-white h-screen">
     {/* <h1>
       web app
     </h1>
